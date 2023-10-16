@@ -4,12 +4,20 @@
     padding: 20px;
 
     form{
-        width: 400px;
+        // width: 400px;
         margin: 0px auto;
         color: white;
+        display: flex;
+        justify-content: center;
+
+        span{
+            color: red;
+            font-weight: bold;
+        }
     }
 
     fieldset{
+        width: 20%;
         padding: 20px;
         margin-bottom: 20px;
     }
